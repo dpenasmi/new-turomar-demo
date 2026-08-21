@@ -1290,43 +1290,43 @@ h3 {
 .img-juega {
   background-image:
     linear-gradient(135deg, rgba(14,27,45,.10), rgba(30,91,68,.10)),
-    url("/img/juega-padel.png");
+    url("../img/juega-padel.png");
   background-color: #27465a;
 }
 
 .img-aprende {
   background-image:
     linear-gradient(135deg, rgba(14,27,45,.10), rgba(30,91,68,.10)),
-    url("/img/aprende-escuela.png");
+    url("../img/aprende-escuela.png");
   background-color: #58735c;
 }
 
 .img-disfruta {
   background-image:
     linear-gradient(135deg, rgba(14,27,45,.08), rgba(224,122,74,.10)),
-    url("/img/disfruta-gastronomia.png");
+    url("../img/disfruta-gastronomia.png");
   background-color: #8d7150;
 }
 
 .img-comparte {
   background-image:
     linear-gradient(135deg, rgba(14,27,45,.08), rgba(30,91,68,.10)),
-    url("/img/comparte-comunidad.png");
+    url("../img/comparte-comunidad.png");
   background-color: #536850;
 }
 
 .img-padel {
-  background-image: url("/img/padel.png");
+  background-image: url("../img/padel.png");
   background-color: #24526b;
 }
 
 .img-tenis {
-  background-image: url("/img/tenis.png");
+  background-image: url("../img/tenis.png");
   background-color: #a26043;
 }
 
 .img-escuela {
-  background-image: url("/img/escuela.png");
+  background-image: url("../img/escuela.png");
   background-color: #60764b;
 }
 
