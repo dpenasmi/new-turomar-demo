@@ -1042,22 +1042,35 @@ h3 {
 }
 
 .history-arrow {
-  padding: 0;
+  width: 32px;
+  height: 32px;
 
+  padding: 0;
   border: 0;
   background: transparent;
 
   color: #fff;
 
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   cursor: pointer;
 
   transition:
     transform 250ms ease,
     opacity 250ms ease;
+}
+
+.history-arrow svg {
+  width: 28px;
+  height: 16px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .history-arrow:hover {
