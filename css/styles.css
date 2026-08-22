@@ -1129,7 +1129,7 @@ h3 {
   min-height: 360px;
   background-image:
     linear-gradient(rgba(30,91,68,.12), rgba(30,91,68,.12)),
-    url("assets/montgat-aereo.jpg");
+    url("../img/montgat-aereo.png");
 }
 
 .map-pin {
@@ -1359,32 +1359,32 @@ h3 {
 }
 
 .ig-1 {
-  background-image: url("assets/instagram-01.jpg");
+  background-image: url("../img/instagram-01.png");
   background-color: #3a6b48;
 }
 
 .ig-2 {
-  background-image: url("assets/instagram-02.jpg");
+  background-image: url("../img/instagram-02.png");
   background-color: #244f6d;
 }
 
 .ig-3 {
-  background-image: url("assets/instagram-03.jpg");
+  background-image: url("../img/instagram-03.png");
   background-color: #6f764c;
 }
 
 .ig-4 {
-  background-image: url("assets/instagram-04.jpg");
+  background-image: url("../img/instagram-04.png");
   background-color: #4b8ba5;
 }
 
 .ig-5 {
-  background-image: url("assets/instagram-05.jpg");
+  background-image: url("../img/instagram-05.png");
   background-color: #89694c;
 }
 
 .ig-6 {
-  background-image: url("assets/instagram-06.jpg");
+  background-image: url("../img/instagram-06.png");
   background-color: #3a454e;
 }
 
