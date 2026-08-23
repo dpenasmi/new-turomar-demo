@@ -285,40 +285,18 @@ h3 {
   align-items: center;
 }
 
+.header-logo {
+  display: block;
+  width: 190px;
+  height: auto;
+  object-fit: contain;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   width: max-content;
-}
-
-.brand-mark {
-  width: 42px;
-}
-
-.brand-mark svg {
-  display: block;
-  width: 100%;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2.4;
-}
-
-.brand-copy {
-  display: flex;
-  flex-direction: column;
-  line-height: .9;
-}
-
-.brand-copy strong {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.15rem;
-  letter-spacing: .03em;
-}
-
-.brand-copy small {
-  font-size: .53rem;
-  letter-spacing: .12em;
 }
 
 .main-nav {
@@ -373,7 +351,7 @@ h3 {
   display: flex;
   align-items: stretch;
   background:
-    url("../img/hero-turomar.jpg")
+    url("../img/hero-turomar.webp")
     center 54% / cover no-repeat,
     linear-gradient(120deg, var(--navy-deep), var(--green-dark));
   color: var(--white);
@@ -1188,7 +1166,7 @@ h3 {
   min-height: 360px;
   background-image:
     linear-gradient(rgba(var(--green-rgb), .12), rgba(var(--green-rgb), .12)),
-    url("../img/montgat-aereo.png");
+    url("../img/montgat-aereo.webp");
 }
 
 .map-pin {
@@ -1783,93 +1761,93 @@ h3 {
 .img-juega {
   background-image:
     linear-gradient(135deg, rgba(var(--navy-rgb), .10), rgba(var(--green-rgb), .10)),
-    url("../img/juega-padel.png");
+    url("../img/juega-padel.webp");
   background-color: #27465a;
 }
 
 .img-aprende {
   background-image:
     linear-gradient(135deg, rgba(var(--navy-rgb), .10), rgba(var(--green-rgb), .10)),
-    url("../img/aprende-escuela.png");
+    url("../img/aprende-escuela.webp");
   background-color: #3e6f8c;
 }
 
 .img-disfruta {
   background-image:
     linear-gradient(135deg, rgba(var(--navy-rgb), .08), rgba(224,122,74,.10)),
-    url("../img/disfruta-gastronomia.png");
+    url("../img/disfruta-gastronomia.webp");
   background-color: #8d7150;
 }
 
 .img-comparte {
   background-image:
     linear-gradient(135deg, rgba(var(--navy-rgb), .08), rgba(var(--green-rgb), .10)),
-    url("../img/comparte-comunidad.png");
+    url("../img/comparte-comunidad.webp");
   background-color: #3a617a;
 }
 
 .img-padel {
-  background-image: url("../img/padel.png");
+  background-image: url("../img/padel.webp");
   background-color: #24526b;
 }
 
 .img-tenis {
-  background-image: url("../img/tenis.png");
+  background-image: url("../img/tenis.webp");
   background-color: #a26043;
 }
 
 .img-escuela {
-  background-image: url("../img/escuela.png");
+  background-image: url("../img/escuela.webp");
   background-color: #476d88;
 }
 
 .img-fitness {
-  background-image: url("../img/bienestar.png");
+  background-image: url("../img/bienestar.webp");
   background-color: #5e5c5b;
 }
 
 .img-piscina {
-  background-image: url("../img/piscina.png");
+  background-image: url("../img/piscina.webp");
   background-color: #4a8da8;
 }
 
 .img-gastro {
-  background-image: url("../img/gastronomia.png");
+  background-image: url("../img/gastronomia.webp");
   background-color: #89674b;
 }
 
 .ig-1 {
-  background-image: url("../img/instagram-01.png");
+  background-image: url("../img/instagram-01.webp");
   background-color: #316f99;
 }
 
 .ig-2 {
-  background-image: url("../img/instagram-02.png");
+  background-image: url("../img/instagram-02.webp");
   background-color: #244f6d;
 }
 
 .ig-3 {
-  background-image: url("../img/instagram-03.png");
+  background-image: url("../img/instagram-03.webp");
   background-color: #61798d;
 }
 
 .ig-4 {
-  background-image: url("../img/instagram-04.png");
+  background-image: url("../img/instagram-04.webp");
   background-color: #4b8ba5;
 }
 
 .ig-5 {
-  background-image: url("../img/instagram-05.png");
+  background-image: url("../img/instagram-05.webp");
   background-color: #89694c;
 }
 
 .ig-6 {
-  background-image: url("../img/instagram-06.png");
+  background-image: url("../img/instagram-06.webp");
   background-color: #3a454e;
 }
 
 .img-closing {
-  background-image: url("../img/closing-club.png");
+  background-image: url("../img/closing-club.webp");
   background-color: #8b4a2f;
 }
 
@@ -1886,6 +1864,10 @@ h3 {
 
       :root {
         --header-h: 74px;
+      }
+
+      .header-logo {
+        width: 150px;
       }
 
       .facility-grid {
@@ -1971,6 +1953,10 @@ h3 {
 
       .site-header {
         position: absolute;
+      }
+
+      .header-logo {
+        width: 165px;
       }
 
       .header-inner {
