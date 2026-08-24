@@ -3,6 +3,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const historyVisual = document.getElementById("historyVisual");
   const historyToggle = document.getElementById("historyToggle");
   const historyTimeTitle = document.getElementById("historyTimeTitle");
+  
+  const currentLanguage = document.documentElement.lang;
+
+  const historyTexts = {
+    es: {
+      past: "VIAJE AL PASADO",
+      present: "VUELVE AL PRESENTE"
+    },
+
+    ca: {
+      past: "VIATGE AL PASSAT",
+      present: "TORNA AL PRESENT"
+    }
+  };
+
+  const texts = historyTexts[currentLanguage] || historyTexts.es;
+
 
   const historyPrev = document.getElementById("historyPrev");
   const historyNext = document.getElementById("historyNext");
@@ -119,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       historyToggle.setAttribute("aria-pressed", "true");
 
-      historyTimeTitle.textContent = "VUELVE AL PRESENTE";
+      historyTimeTitle.textContent = texts.present;
 
     } else {
 
@@ -132,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       historyToggle.setAttribute("aria-pressed", "false");
 
-      historyTimeTitle.textContent = "VIAJE AL PASADO";
+      historyTimeTitle.textContent = texts.past;
     }
 
     showSlide(0);

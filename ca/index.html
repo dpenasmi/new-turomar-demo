@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="New Turomar Club — deporte, gastronomía y comunidad en Montgat. Pádel, tenis, piscina, escuela, eventos y mucho más.">
+  <meta name="description" content="New Turomar Club — esport, gastronomia i comunitat a Montgat. Pàdel, tennis, piscina, escola, esdeveniments i molt més.">
   <title>New Turomar Club | Montgat</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="alternate" hreflang="es" href="../">
+  <link rel="alternate" hreflang="ca" href="./">
+  <link rel="alternate" hreflang="x-default" href="../">
+
+  <link rel="stylesheet" href="../css/styles.css">
+
+
+
 </head>
 
 <body>
@@ -20,10 +27,10 @@
   <header class="site-header">
     <div class="container header-inner">
 
-      <a class="brand" href="#inicio" aria-label="New Turomar - Inicio">
+      <a class="brand" href="#inicio" aria-label="New Turomar - Inici">
         
          <img
-          src="./img/LOGO-TRANS-NEWTUROMAR.png"
+          src="../img/LOGO-TRANS-NEWTUROMAR.png"
           alt="New Turomar Club"
           class="header-logo"
         >
@@ -31,38 +38,38 @@
       </a>
 
       <!-- Menú móvil CSS-only -->
-      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Abrir menú">
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Obrir menú">
       <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true">
         <span></span>
         <span></span>
         <span></span>
       </label>
 
-      <nav class="main-nav" aria-label="Navegación principal">
+      <nav class="main-nav" aria-label="Navegació principal">
         <a href="#club">El club</a>
-        <a href="#deporte">Deporte</a>
-        <a href="#escuela">Escuela</a>
-        <a href="#instalaciones">Instalaciones</a>
-        <a href="#gastronomia">Gastronomía</a>
-        <a href="#eventos">Eventos</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#deporte">Esport</a>
+        <a href="#escuela">Escola</a>
+        <a href="#instalaciones">Instal·lacions</a>
+        <a href="#gastronomia">Gastronomia</a>
+        <a href="#eventos">Esdeveniments</a>
+        <a href="#contacto">Contacte</a>
       </nav>
 
       <div class="header-actions">
 
         <a class="btn btn-primary header-cta" href="#contacto">
-          Reserva tu pista
+          Reserva la teva pista
         </a>
 
-        <div class="language-selector" aria-label="Selector de idioma">
-          <a href="./" class="active" aria-current="page">ES</a>
+        <div class="language-selector" aria-label="Selector d'idioma">
+          <a href="../">ES</a>
           <span>|</span>
-          <a href="./ca/">CA</a>
+          <a href="./" class="active" aria-current="page">CA</a>
         </div>
 
-      </div>     
+      </div>
 
-
+      
     </div>
   </header>
 
@@ -81,37 +88,37 @@
         loop
         playsinline
         preload="metadata"
-        poster="img/hero-turomar.webp"
+        poster="../img/hero-turomar.webp"
         aria-hidden="true"
       >
-        <source src="video/hero-turomar.webm" type="video/mp4">
+        <source src="../video/hero-turomar.webm" type="video/mp4">
       </video>
       
       <div class="hero-overlay"></div>
 
       <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow">Más de 50 años de deporte</p>
+          <p class="eyebrow">Més de 50 anys d'esport</p>
 
           <h1>
             <span>NEW</span>
             <span>TUROMAR</span>
           </h1>
 
-          <p class="hero-kicker">DEPORTE · GASTRONOMÍA · COMUNIDAD</p>
+          <p class="hero-kicker">ESPORT · GASTRONOMIA · COMUNITAT</p>
 
           <p class="hero-text">
-            Mucho más que pádel. Un club para entrenar, disfrutar y compartir
-            momentos inolvidables.
+            Molt més que pàdel. Un club per entrenar, gaudir i compartir
+            moments inoblidables.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contacto">Hazte socio</a>
-            <a class="btn btn-outline-light" href="#club">Ven a conocernos</a>
+            <a class="btn btn-primary" href="#contacto">Fes-te soci</a>
+            <a class="btn btn-outline-light" href="#club">Vine a conèixer-nos</a>
           </div>
         </div>
 
-        <aside class="hero-facts" aria-label="Instalaciones principales">
+        <aside class="hero-facts" aria-label="Instal·lacions principals">
 
         <!-- PÁDEL -->
         <div class="fact">
@@ -145,7 +152,7 @@
 
             </svg>
           </span>
-          <span>9 pistas de pádel</span>
+          <span>9 pistes de pàdel</span>
         </div>
 
         <!-- TENIS -->
@@ -157,7 +164,7 @@
               <path d="M43.9682 25.0052C37.4557 24.5585 32.4795 25.9505 29.0395 29.1812C25.5994 32.4119 23.9206 37.3515 24.0029 43.9999" />
             </svg>
           </span>
-          <span>3 pistas de tenis</span>
+          <span>3 pistes de tennis</span>
         </div>
 
         <!-- PISCINA -->
@@ -172,7 +179,7 @@
           <span>Piscina exterior</span>
         </div>
 
-        <!-- GASTRONOMÍA -->
+        <!-- GASTRONOMIA -->
         <div class="fact">
           <span class="fact-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -184,7 +191,7 @@
               <path d="M16 3c3 1 4 4 4 7h-4"/>
             </svg>
           </span>
-          <span>Restaurante & terraza</span>
+          <span>Restaurant i terrassa</span>
         </div>
 
       </aside>
@@ -202,48 +209,48 @@
       <div class="container">
 
         <header class="section-heading centered">
-          <p class="eyebrow muted">Vive tu club</p>
-          <h2>PÁDEL <em>·</em> TENIS <em>·</em> PISCINA <em>·</em> COMUNIDAD</h2>
+          <p class="eyebrow muted">Viu el teu club</p>
+          <h2>PÀDEL <em>·</em> TENNIS <em>·</em> PISCINA <em>·</em> COMUNITAT</h2>
         </header>
 
         <div class="card-grid card-grid-4">
           <article class="feature-card">
-            <div class="feature-media img-juega" role="img" aria-label="Jugador de pádel"></div>
+            <div class="feature-media img-juega" role="img" aria-label="Jugador de pàdel"></div>
             <div class="feature-card-body">
               
-              <h3>Juega</h3>
-              <p>Pádel, tenis y competición para todos los niveles.</p>
-              <a class="text-link" href="#deporte">Reserva tu pista <span>→</span></a>
+              <h3>Juga</h3>
+              <p>Pàdel, tennis i competició per a tots els nivells.</p>
+              <a class="text-link" href="#deporte">Reserva la teva pista <span>→</span></a>
             </div>
           </article>
 
           <article class="feature-card">
-            <div class="feature-media img-aprende" role="img" aria-label="Escuela deportiva"></div>
+            <div class="feature-media img-aprende" role="img" aria-label="Escola esportiva"></div>
             <div class="feature-card-body">
               
-              <h3>Aprende</h3>
-              <p>Escuelas de pádel y tenis, campus y entrenamientos personalizados.</p>
-              <a class="text-link" href="#escuela">Descubre la escuela <span>→</span></a>
+              <h3>Aprèn</h3>
+              <p>Escoles de pàdel i tennis, campus i entrenaments personalitzats.</p>
+              <a class="text-link" href="#escuela">Descobreix l'escola <span>→</span></a>
             </div>
           </article>
 
           <article class="feature-card">
-            <div class="feature-media img-disfruta" role="img" aria-label="Gastronomía y terraza"></div>
+            <div class="feature-media img-disfruta" role="img" aria-label="Gastronomia i terrassa"></div>
             <div class="feature-card-body">
               
-              <h3>Disfruta</h3>
-              <p>Piscina, restaurante, terraza y un entorno único en Montgat.</p>
-              <a class="text-link" href="#gastronomia">Descubre el club <span>→</span></a>
+              <h3>Gaudeix</h3>
+              <p>Piscina, restaurant, terrassa i un entorn únic a Montgat.</p>
+              <a class="text-link" href="#gastronomia">Descobreix el club <span>→</span></a>
             </div>
           </article>
 
           <article class="feature-card">
-            <div class="feature-media img-comparte" role="img" aria-label="Comunidad del club"></div>
+            <div class="feature-media img-comparte" role="img" aria-label="Comunitat del club"></div>
             <div class="feature-card-body">
               
-              <h3>Comparte</h3>
-              <p>Eventos, torneos y una comunidad que te hace sentir en casa.</p>
-              <a class="text-link" href="#eventos">Ver actividades <span>→</span></a>
+              <h3>Comparteix</h3>
+              <p>Esdeveniments, tornejos i una comunitat que et fa sentir com a casa.</p>
+              <a class="text-link" href="#eventos">Veure activitats <span>→</span></a>
             </div>
           </article>
         </div>
@@ -260,12 +267,12 @@
 
         <div class="section-heading split-heading">
           <div>
-            <p class="eyebrow">Todo en un mismo lugar</p>
-            <h2>TODO LO QUE ENCUENTRAS<br>EN NEW TUROMAR</h2>
+            <p class="eyebrow">Tot en un mateix lloc</p>
+            <h2>TOT EL QUE TROBES<br>A NEW TUROMAR</h2>
           </div>
           <p>
-            Instalaciones de primer nivel y una oferta completa para que
-            disfrutes del deporte, el ocio y la vida social durante todo el año.
+            Instal·lacions de primer nivell i una oferta completa perquè
+            gaudeixis de l'esport, l'oci i la vida social durant tot l'any.
           </p>
         </div>
 
@@ -278,21 +285,21 @@
               <div
                 class="facility-media img-padel"
                 role="img"
-                aria-label="Pistas de pádel de New Turomar">
+                aria-label="Pistes de pàdel de New Turomar">
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">PÁDEL · ESCUELA · COMPETICIÓN</p>
+                <p class="facility-meta">PÀDEL · ESCOLA · COMPETICIÓ</p>
 
-                <h3>Pádel</h3>
+                <h3>Pàdel</h3>
 
                 <p>
-                  Pistas, escuela, clases, competición y torneos
-                  para disfrutar del pádel sea cual sea tu nivel.
+                  Pistes, escola, classes, competició i tornejos
+                  per gaudir del pàdel sigui quin sigui el teu nivell.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Reserva tu pista <span>→</span>
+                  Reserva la teva pista <span>→</span>
                 </a>
               </div>
             </article>
@@ -303,22 +310,22 @@
               <div
                 class="facility-media img-tenis"
                 role="img"
-                aria-label="Pistas de tenis de New Turomar">
+                aria-label="Pistes de tennis de New Turomar">
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">TENIS · ESCUELA · COMPETICIÓN</p>
+                <p class="facility-meta">TENNIS · ESCOLA · COMPETICIÓ</p>
 
-                <h3>Tenis</h3>
+                <h3>Tennis</h3>
 
                 <p>
-                  Pistas de tierra batida, escuela y competición
-                  para seguir disfrutando de uno de los deportes
-                  que forman parte de la historia del club.
+                  Pistes de terra batuda, escola i competició
+                  per continuar gaudint d'un dels esports
+                  que formen part de la història del club.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Descubre el tenis <span>→</span>
+                  Descobreix el tennis <span>→</span>
                 </a>
               </div>
             </article>
@@ -329,22 +336,22 @@
               <div
                 class="facility-media img-escuela"
                 role="img"
-                aria-label="Escuela y formación deportiva de New Turomar">
+                aria-label="Escola i formació esportiva de New Turomar">
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">ESCUELA · CAMPUS · FORMACIÓN</p>
+                <p class="facility-meta">ESCOLA · CAMPUS · FORMACIÓ</p>
 
-                <h3>Escuela & formación</h3>
+                <h3>Escola i formació</h3>
 
                 <p>
-                  Pádel, tenis, karate, campus y actividades
-                  para aprender, mejorar y disfrutar del deporte
-                  a cualquier edad.
+                  Pàdel, tennis, karate, campus i activitats
+                  per aprendre, millorar i gaudir de l'esport
+                  a qualsevol edat.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Descubre la escuela <span>→</span>
+                  Descobreix l'escola <span>→</span>
                 </a>
               </div>
             </article>
@@ -355,22 +362,22 @@
               <div
                 class="facility-media img-fitness"
                 role="img"
-                aria-label="Fitness y actividades dirigidas en New Turomar">
+                aria-label="Fitness i activitats dirigides a New Turomar">
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">FITNESS · ACTIVIDADES DIRIGIDAS</p>
+                <p class="facility-meta">FITNESS · ACTIVITATS DIRIGIDES</p>
 
-                <h3>Fitness & bienestar</h3>
+                <h3>Fitness i benestar</h3>
 
                 <p>
-                  Zumba, Rumba Fitdance y actividades para
-                  mantenerse activo, cuidarse y disfrutar
-                  también fuera de la pista.
+                  Zumba, Rumba Fitdance i activitats per
+                  mantenir-se actiu, cuidar-se i gaudir
+                  també fora de la pista.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Ver actividades <span>→</span>
+                  Veure activitats <span>→</span>
                 </a>
               </div>
             </article>
@@ -385,44 +392,44 @@
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">PISCINA · VERANO · OCIO</p>
+                <p class="facility-meta">PISCINA · ESTIU · OCI</p>
 
-                <h3>Piscina & ocio</h3>
+                <h3>Piscina i oci</h3>
 
                 <p>
-                  Piscina exterior y espacios para relajarse,
-                  disfrutar del verano y compartir tiempo
-                  dentro del club.
+                  Piscina exterior i espais per relaxar-se,
+                  gaudir de l'estiu i compartir temps
+                  dins del club.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Descubre la piscina <span>→</span>
+                  Descobreix la piscina <span>→</span>
                 </a>
               </div>
             </article>
 
 
-            <!-- GASTRONOMÍA & VIDA SOCIAL -->
+            <!-- GASTRONOMIA & VIDA SOCIAL -->
             <article class="facility-card" id="gastronomia">
               <div
                 class="facility-media img-gastro"
                 role="img"
-                aria-label="Restaurante y terraza de New Turomar">
+                aria-label="Restaurant i terrassa de New Turomar">
               </div>
 
               <div class="facility-body">
-                <p class="facility-meta">RESTAURANTE · TERRAZA · COMUNIDAD</p>
+                <p class="facility-meta">RESTAURANT · TERRASSA · COMUNITAT</p>
 
-                <h3>Gastronomía & vida social</h3>
+                <h3>Gastronomia i vida social</h3>
 
                 <p>
-                  Restaurante, terraza y espacios donde terminar
-                  el partido, encontrarse con amigos y seguir
-                  disfrutando del club.
+                  Restaurant, terrassa i espais on acabar
+                  el partit, trobar-se amb amics i continuar
+                  gaudint del club.
                 </p>
 
                 <a class="facility-link" href="#">
-                  Descubre la gastronomía <span>→</span>
+                  Descobreix la gastronomia <span>→</span>
                 </a>
               </div>
             </article>
@@ -439,17 +446,17 @@
     ========================================================== -->
     <section class="history" id="historia">
       <div class="history-copy">
-        <p class="eyebrow muted">Nuestra historia</p>
-        <h2>MÁS DE 50 AÑOS<br>DE DEPORTE.<br>UNA NUEVA ETAPA<br>POR DELANTE.</h2>
+        <p class="eyebrow muted">La nostra història</p>
+        <h2>MÉS DE 50 ANYS<br>D'ESPORT.<br>UNA NOVA ETAPA<br>PER ENDAVANT.</h2>
 
         <p>
-          Desde 1971, generaciones de familias y deportistas han hecho del
-          Turomar su segunda casa. Hoy iniciamos una nueva etapa para seguir
-          creciendo juntos y convertirnos en una referencia deportiva y
-          gastronómica del Maresme.
+          Des de 1971, generacions de famílies i esportistes han fet del
+          Turomar la seva segona casa. Avui iniciem una nova etapa per continuar
+          creixent junts i convertir-nos en un referent esportiu i
+          gastronòmic del Maresme.
         </p>
 
-        <a class="btn btn-outline-dark" href="#">Conoce nuestra historia</a>
+        <a class="btn btn-outline-dark" href="#">Coneix la nostra història</a>
       </div>
 
       <div class="history-visual" id="historyVisual">
@@ -462,16 +469,16 @@
         <!-- Imagen 01 -->
         <figure class="history-slide is-active">
           <img
-            src="img/historia-2026-01.webp"
-            alt="New Turomar en la actualidad"
+            src="../img/historia-2026-01.webp"
+            alt="New Turomar en l'actualitat"
           >
         </figure>
 
         <!-- Imagen 02 -->
         <figure class="history-slide">
           <img
-            src="img/historia-2026-02.webp"
-            alt="Instalaciones actuales de New Turomar"
+            src="../img/historia-2026-02.webp"
+            alt="Instal·lacions actuals de New Turomar"
             loading="lazy"
           >
         </figure>
@@ -479,8 +486,8 @@
         <!-- Imagen 03 -->
         <figure class="history-slide">
           <img
-            src="img/historia-2026-03.webp"
-            alt="Actividad deportiva actual en New Turomar"
+            src="../img/historia-2026-03.webp"
+            alt="Activitat esportiva actual a New Turomar"
             loading="lazy"
           >
         </figure>
@@ -488,8 +495,8 @@
         <!-- Imagen 04 -->
         <figure class="history-slide">
           <img
-            src="img/historia-2026-04.webp"
-            alt="Espacios sociales actuales de New Turomar"
+            src="../img/historia-2026-04.webp"
+            alt="Espais socials actuals de New Turomar"
             loading="lazy"
           >
         </figure>
@@ -497,8 +504,8 @@
         <!-- Imagen 05 -->
         <figure class="history-slide">
           <img
-            src="img/historia-2026-05.webp"
-            alt="New Turomar hoy"
+            src="../img/historia-2026-05.webp"
+            alt="New Turomar avui"
             loading="lazy"
           >
         </figure>
@@ -514,7 +521,7 @@
         <!-- Imagen 01 -->
         <figure class="history-slide is-active">
           <img
-            src="img/historia-1971-01.webp"
+            src="../img/historia-1971-01.webp"
             alt="Club Tennis Turomar en 1971"
             loading="lazy"
           >
@@ -523,8 +530,8 @@
         <!-- Imagen 02 -->
         <figure class="history-slide">
           <img
-            src="img/historia-1971-02.webp"
-            alt="Antiguas instalaciones del Club Tennis Turomar"
+            src="../img/historia-1971-02.webp"
+            alt="Antigues instal·lacions del Club Tennis Turomar"
             loading="lazy"
           >
         </figure>
@@ -532,8 +539,8 @@
         <!-- Imagen 03 -->
         <figure class="history-slide">
           <img
-            src="img/historia-1971-03.webp"
-            alt="Actividad deportiva histórica del Club Tennis Turomar"
+            src="../img/historia-1971-03.webp"
+            alt="Activitat esportiva històrica del Club Tennis Turomar"
             loading="lazy"
           >
         </figure>
@@ -541,8 +548,8 @@
         <!-- Imagen 04 -->
         <figure class="history-slide">
           <img
-            src="img/historia-1971-04.webp"
-            alt="Vida social histórica del Club Tennis Turomar"
+            src="../img/historia-1971-04.webp"
+            alt="Vida social històrica del Club Tennis Turomar"
             loading="lazy"
           >
         </figure>
@@ -550,8 +557,8 @@
         <!-- Imagen 05 -->
         <figure class="history-slide">
           <img
-            src="img/historia-1971-05.webp"
-            alt="Historia del Club Tennis Turomar"
+            src="../img/historia-1971-05.webp"
+            alt="Història del Club Tennis Turomar"
             loading="lazy"
           >
         </figure>
@@ -565,7 +572,7 @@
       <div class="history-time-control">
 
         <p class="history-time-title" id="historyTimeTitle">
-          VIAJE AL PASADO
+          VIATGE AL PASSAT
         </p>
 
         <div class="history-time-switch">
@@ -576,7 +583,7 @@
             class="history-toggle"
             id="historyToggle"
             type="button"
-            aria-label="Cambiar entre 1971 y 2026"
+            aria-label="Canviar entre 1971 i 2026"
             aria-pressed="false"
           >
             <span></span>
@@ -602,7 +609,7 @@
           class="history-arrow history-arrow-prev"
           id="historyPrev"
           type="button"
-          aria-label="Ver imagen anterior"
+          aria-label="Veure la imatge anterior"
         >
           <svg viewBox="0 0 32 16" aria-hidden="true">
             <path d="M8 2L2 8L8 14M2 8H30"></path>
@@ -613,7 +620,7 @@
           class="history-arrow history-arrow-next"
           id="historyNext"
           type="button"
-          aria-label="Ver imagen siguiente"
+          aria-label="Veure la imatge següent"
         >
           <svg viewBox="0 0 32 16" aria-hidden="true">
             <path d="M24 2L30 8L24 14M2 8H30"></path>
@@ -632,32 +639,32 @@
     ========================================================== -->
     <section class="location" id="contacto">
       <div class="location-info">
-        <p class="eyebrow">En el corazón del Maresme</p>
-        <h2>NEW TUROMAR<br>EN MONTGAT</h2>
+        <p class="eyebrow">Al cor del Maresme</p>
+        <h2>NEW TUROMAR<br>A MONTGAT</h2>
 
         <ul class="location-list">
-          <li>⌖ A 15 minutos de Barcelona</li>
-          <li>◆ A 10 minutos a pie de la playa</li>
-          <li>≈ Un entorno tranquilo para desconectar, disfrutar y hacer deporte</li>
+          <li>⌖ A 15 minuts de Barcelona</li>
+          <li>◆ A 10 minuts a peu de la platja</li>
+          <li>≈ Un entorn tranquil per desconnectar, gaudir i fer esport</li>
         </ul>
 
         <a class="btn btn-outline-light" href="https://maps.google.com/?q=Av.+Jordana,+72,+Montgat" target="_blank" rel="noopener">
-          Cómo llegar
+          Com arribar-hi
         </a>
       </div>
 
-      <div class="location-map" role="img" aria-label="Vista aérea de Montgat y ubicación aproximada de New Turomar">
+      <div class="location-map" role="img" aria-label="Vista aèria de Montgat i ubicació aproximada de New Turomar">
         <div class="map-pin">●</div>
       </div>
 
       <div class="location-cta">
-        <h2>¿NOS VEMOS<br>EN EL CLUB?</h2>
+        <h2>ENS VEIEM<br>AL CLUB?</h2>
         <p>
-          Ven a conocernos sin compromiso y descubre todo lo que
-          New Turomar puede ofrecerte.
+          Vine a conèixer-nos sense compromís i descobreix tot el que
+          New Turomar et pot oferir.
         </p>
 
-        <a class="btn btn-dark" href="tel:+34613080962">Contacta con nosotros</a>
+        <a class="btn btn-dark" href="tel:+34613080962">Contacta amb nosaltres</a>
 
         <a class="phone" href="tel:+34613080962">◉ 613 080 962</a>
       </div>
@@ -672,22 +679,22 @@
 
         <div class="instagram-heading">
           <div>
-            <p class="eyebrow muted">Actualidad</p>
-            <h2>SÍGUENOS EN INSTAGRAM <span>@NEWTUROMAR</span></h2>
+            <p class="eyebrow muted">Actualitat</p>
+            <h2>SEGUEIX-NOS A INSTAGRAM <span>@NEWTUROMAR</span></h2>
           </div>
 
           <a class="btn btn-outline-dark" href="https://www.instagram.com/newturomar/" target="_blank" rel="noopener">
-            Ver más en Instagram
+            Veure més a Instagram
           </a>
         </div>
 
         <div class="instagram-grid">
-          <a class="ig-card ig-1" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
-          <a class="ig-card ig-2" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
-          <a class="ig-card ig-3" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
-          <a class="ig-card ig-4" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
-          <a class="ig-card ig-5" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
-          <a class="ig-card ig-6" href="https://www.instagram.com/newturomar/" aria-label="Publicación de Instagram"></a>
+          <a class="ig-card ig-1" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
+          <a class="ig-card ig-2" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
+          <a class="ig-card ig-3" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
+          <a class="ig-card ig-4" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
+          <a class="ig-card ig-5" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
+          <a class="ig-card ig-6" href="https://www.instagram.com/newturomar/" aria-label="Publicació d'Instagram"></a>
         </div>
 
       </div>
@@ -704,7 +711,7 @@
 
     <div class="closing-top">
 
-      <div class="closing-image img-closing" role="img" aria-label="Tenista deslizándose sobre una pista de tierra batida">
+      <div class="closing-image img-closing" role="img" aria-label="Tennista lliscant sobre una pista de terra batuda">
         
       </div>
 
@@ -718,11 +725,11 @@
         <div class="closing-marquee-track">
 
           <span>
-            JUEGA · DISFRUTA · COMPARTE ·
+            JUGA · GAUDEIX · COMPARTEIX ·
           </span>
 
           <span>
-            JUEGA · DISFRUTA · COMPARTE ·
+            JUGA · GAUDEIX · COMPARTEIX ·
           </span>
 
         </div>
@@ -733,18 +740,18 @@
       <div class="closing-content">
 
         <p>
-          Pádel, tenis, deporte, gastronomía y comunidad.
-          Todo lo que necesitas para disfrutar de tu club.
+          Pàdel, tennis, esport, gastronomia i comunitat.
+          Tot el que necessites per gaudir del teu club.
         </p>
 
         <div class="closing-actions">
 
           <a href="#" class="btn closing-primary">
-            HAZTE SOCIO
+            FES-TE SOCI
           </a>
 
           <a href="#contacto" class="btn closing-secondary">
-            VEN A CONOCERNOS
+            VINE A CONÈIXER-NOS
           </a>
 
         </div>
@@ -770,12 +777,12 @@
 
         <a href="#inicio" class="footer-logo">
           <!-- Mantén aquí el logo que ya utilizas -->
-          <img src="./img/LOGO-TRANS-NEWTUROMAR.png" alt="New Turomar Club">
+          <img src="../img/LOGO-TRANS-NEWTUROMAR.png" alt="New Turomar Club">
         </a>
 
         <p class="footer-description">
-          Deporte, ocio y comunidad desde 1971.<br>
-          New Turomar, mucho más que un club.
+          Esport, oci i comunitat des de 1971.<br>
+          New Turomar, molt més que un club.
         </p>
 
         <div class="footer-contact-data">
@@ -798,19 +805,19 @@
       ========================== -->
       <div class="footer-navigation">
 
-        <nav class="footer-menu" aria-label="Navegación del pie de página">
+        <nav class="footer-menu" aria-label="Navegació del peu de pàgina">
 
           <a href="#club">EL CLUB</a>
-          <a href="#deporte">DEPORTE</a>
-          <a href="#gastronomia">GASTRONOMÍA</a>
-          <a href="#servicios">SERVICIOS</a>
-          <a href="#actualidad">ACTUALIDAD</a>
+          <a href="#deporte">ESPORT</a>
+          <a href="#gastronomia">GASTRONOMIA</a>
+          <a href="#servicios">SERVEIS</a>
+          <a href="#actualidad">ACTUALITAT</a>
 
         </nav>
 
         <div class="footer-social">
 
-          <span>Síguenos</span>
+          <span>Segueix-nos</span>
 
           <div class="footer-social-links">
             <a href="#" aria-label="Instagram">IG</a>
@@ -828,13 +835,13 @@
       <div class="footer-actions">
 
         <nav class="footer-actions-menu">
-          <a href="#contacto">CONTACTO</a>
-          <a href="#">HAZTE SOCIO</a>
-          <a href="#">RESERVA TU PISTA</a>
+          <a href="#contacto">CONTACTE</a>
+          <a href="#">FES-TE SOCI</a>
+          <a href="#">RESERVA LA TEVA PISTA</a>
         </nav>
 
         <a href="#contacto" class="footer-big-link">
-          <span>Ven a conocernos</span>
+          <span>Vine a conèixer-nos</span>
           <span aria-hidden="true">↗</span>
         </a>
 
@@ -849,24 +856,24 @@
     <div class="footer-bottom">
 
       <p>
-        © 2026 New Turomar Club. Todos los derechos reservados.
+        © 2026 New Turomar Club. Tots els drets reservats.
       </p>
 
       <div class="footer-legal">
-        <a href="#">Aviso legal</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">Política de cookies</a>
+        <a href="#">Avís legal</a>
+        <a href="#">Política de privacitat</a>
+        <a href="#">Política de galetes</a>
       </div>
 
       <p>
-        Concepto de diseño por DPM Evolución Digital
+        Concepte de disseny per DPM Evolució Digital
       </p>
 
     </div>
 
 </footer>
 
-<script src="js/history.js"></script>
+<script src="../js/history.js"></script>
 
 </body>
 </html>
